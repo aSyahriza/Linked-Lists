@@ -15,6 +15,10 @@ Node::~Node(){
   next = NULL;
 }
 
+
+void Node::setValue(Student* studentP){
+  student = studentP;
+}
 Student* Node::getStudent(){
   return student;
 }
